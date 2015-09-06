@@ -1,0 +1,30 @@
+# view AndroidManifest.xml #generated:38
+-keep class ca.idrc.tagin.lib.TaginService { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.locateme.CaptureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.locateme.DestLocation { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.locateme.Navigation { <init>(...); }
+
+# view res/layout/capture.xml #generated:12
+-keep class com.locateme.ViewfinderView { <init>(...); }
+
+# view res/layout/capture.xml #generated:175
+-keep class com.locateme.camera.ShutterButton { <init>(...); }
+
+# onClick res/layout/capture.xml #generated:98
+-keepclassmembers class * { *** confirmLocation(...); }
+
+# onClick res/layout/activity_dest_location.xml #generated:61
+-keepclassmembers class * { *** onRequestURN(...); }
+
+# onClick res/layout/activity_dest_location.xml #generated:92
+-keepclassmembers class * { *** onSetLabel(...); }
+
+# onClick res/layout/activity_dest_location.xml #generated:21
+-keepclassmembers class * { *** setDest(...); }
+
